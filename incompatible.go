@@ -1,7 +1,7 @@
 // Copyright (c) The M1CPU Authors
 // SPDX-License-Identifier: MPL-2.0
 
-//go:build !darwin || !arm64 || !cgo
+//go:build !darwin || ios || !arm64 || !cgo
 
 package m1cpu
 
